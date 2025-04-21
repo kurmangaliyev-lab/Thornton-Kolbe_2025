@@ -2,8 +2,8 @@ library(tidyverse)
 library(Seurat)
 library(cowplot)
 
-rm(list = ls())
-setwd("~/projects1/projJC1/analysis1/")
+#rm(list = ls())
+#setwd("~/projects1/projJC1/analysis1/")
 
 # 1. Load & Prep
 data0 <- readRDS("data/data2.rds")
