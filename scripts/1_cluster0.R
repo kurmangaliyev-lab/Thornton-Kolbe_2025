@@ -3,10 +3,11 @@ library(Seurat)
 library(UCell)
 library(cowplot)
 
-rm(list = ls())
-setwd("~/projects1/projJC1/analysis1/")
+#rm(list = ls())
+#setwd("~/projects1/projJC1/analysis1/")
 
 # 1. Load and Prep: Palmateer et al. 2023
+# The input file was downloaded from NCBI GEO GSE160370
 data0 <- readRDS("data/GSE160370_FullDataSet_Merge.rds")
 data0 <- UpdateSeuratObject(data0)
 
