@@ -10,7 +10,8 @@ data0 <- readRDS("data/data2.rds")
 markers0 <- readRDS("data/markers2.rds")
 
 # 2. Visual System Atlas (V1.1)
-dataOL0 <- readRDS("/work1/yerbol/atlas0/atlas_V1.1/data_V1.1a.rds")
+# The input file with the single-cell atlas of the visual system (V1.1) is available at Zenodo: https://doi.org/10.5281/zenodo.8111612
+#dataOL0 <- readRDS("/work1/yerbol/atlas0/atlas_V1.1/data_V1.1a.rds")
 dataOL0 <- subset(dataOL0, class1 == "N" & time == "48h")
 
 ## reorder clusters
